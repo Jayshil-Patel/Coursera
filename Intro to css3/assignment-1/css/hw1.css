@@ -59,3 +59,43 @@ nav a{
 	width: 80%;
 	margin: 10%;
 }
+
+table{
+	font:italic 16px/180% Arial, Helvetica, sans-serif;
+	width:80%;
+	margin:0 auto;
+}
+tr th{
+	background-image: linear-gradient(to bottom, #006b1b, #005a17);
+	border:solid 1px;
+	border-bottom: solid 3px;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	padding:4px;
+	background-repeat: no-repeat;
+}
+tr{
+	opacity: 0.7;
+}
+tr:hover{
+	opacity: 1.0;
+	
+}
+tr td{
+	background-color: #bbffcc;
+	padding:4px;
+	color: #1b1f00;
+	text-align: center;
+	border:solid 1px;
+	border-radius: 4px;
+	text-shadow: 1px 1px  #353535;
+}
+tr th:first-child, tr td:first-child{
+	text-align: left;
+}
+tr td:hover{
+	text-shadow: 2px 2px #d8d2fd;
+}
+th{
+	color:aliceblue;
+}
