@@ -4,16 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="trial.css">
+    <link rel="stylesheet" href="trial.css" />
     <title>Document</title>
   </head>
 
   <body>
-    <img src="/78102199.jpeg" alt="image of jayshil" onclick="console.log(this.alt)">
-    <div onclick="logger(this)" id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptates nesciunt soluta id temporibus ullam a laboriosam at! Perspiciatis quos dolor ab quisquam quidem iste? Molestias natus aspernatur facilis hic.</div>
-    <hr><hr>
-    <div onclick="logger(this)" id="second">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium quae officiis accusantium vitae? Iusto minus cum exercitationem reprehenderit non porro dicta nisi magnam nemo eos esse repudiandae, sint quisquam aliquid.
-    </div>
+    <img
+      src="/78102199.jpeg"
+      alt="first image"
+      id="first"
+      onmouseenter="showALT(this)"
+      onmouseleave="document.getElementById('message').innerHTML='your text will apper here'"
+    />
+    <img
+      src="/78102199.jpeg"
+      alt="second image"
+      id="second"
+      onmouseenter="showALT(this)"
+      onmouseleave="document.getElementById('message').innerHTML='your text will apper here'"
+    />
+    <img
+      src="/78102199.jpeg"
+      alt="third image"
+      id="third"
+      onmouseenter="showALT(this)"
+      onmouseleave="document.getElementById('message').innerHTML='your text will apper here'"
+    />
+    <div id="message">Lorem, ipsum dolor.</div>
+    <div onmouseenter="changer(this)">Lorem ipsum dolor sit.</div>
   </body>
 
   <script src="/trial.js"></script>
