@@ -3,5 +3,6 @@ function check(){
     var em2 = document.getElementById("email_repeat");
     if(em1.value != em2.value){
         alert("Emails does not match");
+        return false;
     }
 }
