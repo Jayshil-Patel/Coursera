@@ -4,6 +4,7 @@ function billingFunction() {
       document.getElementById("shippingName").value;
     document.getElementById("billingZip").value =
       document.getElementById("shippingZip").value;
+      console.log("I am Jayshil");
   } else {
     document.getElementById("billingName").value = null;
     document.getElementById("billingZip").value = null;
